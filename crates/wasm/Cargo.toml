@@ -1,0 +1,9 @@
+[package]
+name = "portal-solutions-waco-wasm"
+version = "0.1.0"
+edition = "2024"
+description.workspace = true
+license.workspace = true
+
+[dependencies]
+portal-pc-waffle.workspace = true

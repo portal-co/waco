@@ -1,0 +1,13 @@
+[package]
+name = "portal-solutions-waco-codegen-common"
+version = "0.1.0"
+edition = "2024"
+description.workspace = true
+license.workspace = true
+
+[dependencies]
+awaiter-trait.workspace = true
+
+[features]
+alloc=[]
+std=["alloc"]
