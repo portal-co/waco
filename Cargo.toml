@@ -3,8 +3,13 @@ members=[]
 resolver="3"
 
 [workspace.package]
+description = "A fast compiler designed for WASM"
+license = "MPL-2.0"
 
 [workspace.dependencies]
+px-llvm-codegen-utils-core={git="https://github.com/portal-co/llvm-codegen-utils.git",version="^0.1.5"}
+
+
 portal-jsc-common =   {git="https://github.com/portal-co/jsaw-core.git",version="^0.8.0-pre.9"}
 portal-jsc-swc-cfg =  {git="https://github.com/portal-co/jsaw-core.git",version="^0.8.0-pre.9"}
 portal-jsc-swc-tac =  {git="https://github.com/portal-co/jsaw-core.git",version="^0.8.0-pre.9"}
