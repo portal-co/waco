@@ -1,13 +1,14 @@
 # waco
 
 ## Description
-Project waco
+"A fast compiler designed for WASM" (`waco`). Integrates with LLVM and SWC.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Compile languages to WASM
+- [ ] Optimize for speed
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace setup with codegen crates
 
 ---
 *AI assisted*
